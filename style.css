@@ -11,7 +11,7 @@ body{
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    
+    width: 1200px;
     
 }
 .navbar__s1{
@@ -123,7 +123,6 @@ body{
 }
 .searchbar__container{
  padding: 20px;
- align-items: center;
  margin-left: 240px;
  
 }
@@ -133,8 +132,10 @@ body{
     padding: 10px;
     width: 750px;
     height: 35px;
-    align-items: center;
+  
+    
     position: relative;
+
 } 
 
 .search button{
@@ -155,12 +156,15 @@ body{
 .img__sec{
     padding: 30px;
     position: relative;
+    
    
 }
 .img__sec img{
-    width: 1200px;
+    width: 1180px;
     height: 500px;
     border-radius: 10px;
+    
+    
     
 }
 .img__desc{
@@ -180,6 +184,7 @@ body{
 .Awardsection{
     padding: 20px;
     margin-top: -20px;
+    
     position: relative;
 }
 .Award__title,.like__title{
