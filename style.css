@@ -160,6 +160,7 @@ body{
     width: 1200px;
     height: 500px;
     border-radius: 10px;
+    
 }
 .img__desc{
     background-color:transparent;
@@ -430,6 +431,7 @@ body{
 .bestsec img{
     width: 1200px;
     height: 600px;
+    padding: 20px;
 }
 .best__desc1{
     width: 340px;
