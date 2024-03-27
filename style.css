@@ -92,6 +92,10 @@ body{
     font-size: xx-large;
     text-align: center;
 }
+.cate_cen{
+    display: flex;
+    justify-content: center;
+}
 .category__container{
    padding:10px;
    cursor: pointer;
@@ -120,9 +124,13 @@ body{
 .cate__c5:hover{
     border-bottom: solid black 3px;
 }
+.search_cen{
+    display: flex;
+    justify-content: center;
+}
 .searchbar__container{
  padding: 20px;
- margin-left: 240px;
+
  
 }
 .search{
@@ -152,6 +160,10 @@ body{
     background-color: rgb(161, 222, 161);
     
 }
+.img_cen{
+    display: flex;
+    justify-content: center;
+}
 .img__sec{
     padding: 30px;
     position: relative;
@@ -179,6 +191,10 @@ body{
     color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
+}
+.Awa_cen{
+    display: flex;
+    justify-content: center;
 }
 .Awardsection{
     padding: 20px;
@@ -235,6 +251,10 @@ body{
     top:260px;
     left:1040px;
    
+}
+.like_cen{
+    display: flex;
+    justify-content: center;
 }
 .likesection{
     padding: 20px;
@@ -315,54 +335,45 @@ body{
     bottom:280px;
     left: 230px;
 }
-.topsection{
-    padding: 20px;
-    position: relative;
-    
+.top_cen{
+    display: flex;
+    justify-content: center;
 }
 .top__title{
     margin-top: 50px;
+    margin-left: 20px;
 }
+.topsection{
+    padding: 20px;
+    position: relative;
+}
+
 .topimg__container img{
     height: 250px;
     width: 280px;
     margin-left: 10px;
     border-radius: 10px;
+
+}
+.top__desc1,.top__desc2,.top__desc3,.top__desc4 {
+    width: 284px;
+    margin-left: 10px;
+    
+    
 }
 .topdesc__container{
     display: flex;
     
 }
-.top__desc1,.top__desc2,.top__desc3,.top__desc4
-{
-    height: fit-content;
-    width: 280px;
-    padding: 20px;
-    
-}
-.top__title{
-    margin-left: 20px;
-    
-}
-.topsection h3{
-    margin-top: -10px;
-    margin-bottom: -3px;
-    
-}
-.topsection p{
-    margin-top: -5px;
-}
-.top__desc1 {
-    margin-left: -10px;
-}
-.topheart__T1,.topheart__T4{
+
+.topheart__T1{
     border:solid black 1px ;
     width:fit-content;
     background-color: azure;
     padding: 10px;
     border-radius: 30px;
     position: absolute;
-    top:160px;
+    top: 160px;
     left: 265px;
 }
 .topheart__T2{
@@ -396,39 +407,60 @@ body{
     position: absolute;
     top:160px;
     left: 1150px;
-}
+} 
+
 .more__img{
-    height: 250px;
-    width: 300px;
     display: flex;
+    justify-content: center;
 }
 .more__img img{
-    margin-left: 35px;
-    border-radius: 10px;
+    border-radius: 30px;
+    padding: 20px;
+    height: 250px;
+    width: 340px;
    
 }
-.moresec h2{
+.moresec {
     margin-left: 20px;
+    
+   
 }
 .moresec{
-    padding: 20px;
     background-color: blanchedalmond;
+    width: 100%;
+    
 }
-.more__desc p{
+.more__img p{
     width: 300px;
+    padding: 20px;
+    text-align: center;
+    
    
 }
-.more__desc{
+.more__img p{
+margin-top: -10px;
+}
+.moresec h2{
+    margin-left: 200px;
+    padding: 10px;
+}.vid_cen{
     display: flex;
-   text-align: center;
-   justify-content:space-around;
+    justify-content: center;
 }
 .vide{
     padding: 20px;
 }
+.vide__desc_cen{
+    display: flex;
+    justify-content: center;
+}
 .vide__desc{
-    margin-left: 50px;
+    margin-left: 180px;
     margin-top: -20px;
+}
+.best_cen{
+    display: flex;
+    justify-content: center;
 }
 .bestsec{
     position: relative;
@@ -461,6 +493,8 @@ margin-top: -10px;
     border-radius: 20px; 
     
 }
+
+
 .foot__desc{
     display: flex;
     padding: 20px;
@@ -475,7 +509,11 @@ margin-top: -10px;
 .footer{
     background-color:bisque;
     position: relative;
-    width: 1270px;
+    width: 100%;
+    
+   
+    
+   
 }
 .ftterms__s1{
     display: flex;
@@ -535,7 +573,7 @@ margin-top: -10px;
     display: flex;
 }
 .fticons{
-    margin-left: 70px;
+    padding-left: 350px;
 }
 .btn{
 display: flex;
