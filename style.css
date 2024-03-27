@@ -527,13 +527,11 @@ margin-top: -10px;
 .ftterms__s1,.ftterms__s2{
     display: flex;
      gap: 20px;
-     margin-right: 200px;
+     
      
 }
 
-.ftcopy,.ftterms__s1,.ftterms__s2{
-    margin-left: 150px;
-}
+
 .ftcopy,.ftterms__s1,.ftterms__s2 p{
     margin-top: -15px;
     
@@ -582,8 +580,8 @@ margin-top: -10px;
     display: flex;
     justify-content:center;
     gap:30px;
-    margin-left: -20px;
-    margin-top: -30px;
+    margin-top: -40px;
+    
    
 }
 .btn{
@@ -611,7 +609,7 @@ margin-top: -10px;
     
 }
 .ftcopy p{
-    margin-right: 600px;
+    margin-right: 580px;
 }
 .ftcopy{
     display: flex;
