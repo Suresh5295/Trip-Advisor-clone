@@ -519,21 +519,18 @@ margin-top: -10px;
 }
 .footer{
     background-color:bisque;
-    position: relative;
-    width: 100%;
     
-   
-    
+    width: 100%;  
    
 }
-.ftterms__s1{
+
+.ftterms__s1,.ftterms__s2{
     display: flex;
      gap: 20px;
+     margin-right: 200px;
+     
 }
-.ftterms__s2{
-    display: flex;
-     gap: 20px;
-}
+
 .ftcopy,.ftterms__s1,.ftterms__s2{
     margin-left: 150px;
 }
@@ -542,10 +539,9 @@ margin-top: -10px;
     
 }
 .fticon{
-    position: absolute;
-    top:360px;
-    left: 50px;
-}
+  
+    margin-left: 120px;
+} 
 .ftsec__1 p ,.ftsec__2 p ,.ftsec__3 p ,.ftsec__3 sub p{
  cursor: pointer;
  width: fit-content;
@@ -564,16 +560,14 @@ margin-top: -10px;
 .ftsec__3 sub p:hover{
     border-bottom: solid black 2px;
 }
-.ftterms__s1 p{
+.ftterms__s1 p,.ftterms__s2 p{
     cursor: pointer;
     width: fit-content;
     border-bottom:solid black 2px ;
+    
+    
 }
-.ftterms__s2 p{
-    cursor: pointer;
-    width: fit-content;
-    border-bottom:solid black 2px ;
-}
+
 .ftenddesc p{
     width: 800px;
     font-size: small;
@@ -583,15 +577,45 @@ margin-top: -10px;
 .ftenddesc{
     display: flex;
 }
-.fticons{
-    padding-left: 350px;
+.ftterms_cen{
+    display: flex;
+    justify-content:right;
+    gap:30px;
+    margin-right: 360px;
+    margin-top: -40px;
 }
 .btn{
-display: flex;
-width: 90px;
-gap: 20px;
-position:absolute;
-bottom:120px;
-right: 200px;
+    display: flex;
+    gap: 40px;
+    
 }
-   
+.btn1,.btn2{
+    width: 60px;
+    height: 20px;
+}
+
+  .ft_cen1 {
+    display: flex;
+    justify-content: center;
+  } 
+  .ftcopy_cen{
+    display: flex;
+    justify-content:center;
+ }
+.ftend_cen{
+    display: flex;
+    justify-content: center;
+    
+}
+.ftcopy p{
+    margin-right: 700px;
+}
+.ftcopy{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+} 
+.ftcopy img{
+    height: 80px;
+}
