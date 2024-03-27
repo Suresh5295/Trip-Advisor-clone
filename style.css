@@ -408,7 +408,15 @@ body{
     top:160px;
     left: 1150px;
 } 
-
+.moresec h2{
+    display: flex;
+    justify-content: center;
+    margin-right: 1200px;
+}
+.more_cen{
+    display: flex;
+    justify-content: center;
+}
 .more__img{
     display: flex;
     justify-content: center;
@@ -443,20 +451,23 @@ margin-top: -10px;
 .moresec h2{
     margin-left: 200px;
     padding: 10px;
-}.vid_cen{
-    display: flex;
-    justify-content: center;
 }
 .vide{
-    padding: 20px;
-}
-.vide__desc_cen{
     display: flex;
+    padding: 20px;
     justify-content: center;
+   
+}
+.vide__desc p{
+    margin-top:-20px ;
 }
 .vide__desc{
-    margin-left: 180px;
-    margin-top: -20px;
+    justify-content: center;
+}
+.vid__desc_cen{
+    display: flex;
+    justify-content: center;
+    margin-right:500px ;
 }
 .best_cen{
     display: flex;
